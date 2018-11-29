@@ -4,8 +4,7 @@
 
 int main(int argc, char** argv)
 {
-	//#printf("aaa");
-	printf("test\n");
 	printf("bbb");
+	int i =0;
 	return 0;
 }
