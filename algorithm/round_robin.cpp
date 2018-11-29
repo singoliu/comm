@@ -185,9 +185,11 @@ int  main(int argc, char** argv)
       int iRet = weightRoundRobin->GetServer(oServer);    
       printf("[%d]:server :[%s]; weight=%d\n",i, oServer.GetIp().c_str(),oServer.GetWeight());    
   }  
+	 printf("ovxxxer!!\n");	
   delete weightRoundRobin;
 //  printf("over!!\n");
   return 0;
+
 }  
 
 
